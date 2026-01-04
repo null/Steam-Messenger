@@ -269,5 +269,4 @@ class SteamSession:
         self.submit_email_code(input("[?] Enter OTP Code: "))
         self.poll_auth_session()
         self.finalize_login()
-
         self.set_tokens()
